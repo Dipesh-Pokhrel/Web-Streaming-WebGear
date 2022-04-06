@@ -1,0 +1,126 @@
+
+/* Handles Responive image tags (from bootstrap) */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.mx-auto {
+    margin-right: auto !important;
+}
+
+.mx-auto {
+    margin-left: auto !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.rounded {
+    border-radius: 0.25rem !important;
+}
+
+/* ends */
+
+/*
+    Main
+*/
+.bodycontainer {
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.bodycontainer::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+h1 {
+    text-align: center;
+    color: saddlebrown;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+    text-transform: Uppercase;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: black;
+    background-attachment: scroll;
+    background-size: auto;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.copy-enhance p {
+    font-size: 0.9em;
+    color: #fff;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+}
+
+p {
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+}
+
+a {
+    color: #fff;
+    font-weight: 500;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.copy-enhance p a {
+    color: #fff;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+/*
+    Handle mobile screens
+*/
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.0rem;
+    }
+}
+
+/*
+    Glow text
+*/
+.glow {
+    color: skyblue;
+    text-align: center;
+      }
+
